@@ -1,0 +1,573 @@
+<html>
+    <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <head>
+       <style>
+        .c1
+        {
+               width: 1520px;
+                height:50px;
+                margin-top:-10px;
+                border:1px solid white;
+                border-top:white;
+                border-left: white;
+                border-right:white;
+                color:white;  
+                position:fixed;
+                background-color:white;     
+        }
+        .c1 .a1
+        {
+            float:inline-start;
+            margin-left:60px;
+            margin-top: 10px;
+    
+        }
+        .c1 .a1 a
+        {
+            margin-left:50px;
+            color:rgb(70, 69, 69);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+            text-decoration: none;
+        
+            
+        }
+    .c1 p
+        {
+           color:black;
+           font-size:28px;;
+           font-weight:bold;
+           margin-top:-20px;
+           font-family:Georgia, 'Times New Roman', Times, serif;
+           
+        }
+        input[type=text]
+        {
+            width:270px;
+            height:30px;
+            margin-top:-53px;
+            margin-left:1000px;
+            border:1px solid rgb(179, 178, 178);
+            border-top:white;
+            border-left: white;
+            border-right:white;
+            font-size:17px;
+            color:rgb(205, 203, 203);
+        }
+        .C1 .logo 
+        {
+            margin-top:-20px;
+            margin-left:1300px;
+        }
+        .c1 .logo img
+        {
+            margin-left:20px;
+        }
+        .c1 .a2
+        {
+            margin-top:-60px;
+            margin-left:1240px;
+            
+        }
+        .c2
+        {
+            width:1520px;
+            height:100px;
+            border: 1px solid rgb(174, 172, 172);
+            background:white;
+            margin-top: 20px;
+            position: fixed;
+            border-top:white;
+            border-left: white;
+            border-right:white;
+        }
+        .c2 .a3
+        {
+            padding-top:20px;
+        }
+        .c2 .a3 a
+        {
+            margin-left: 470px;
+            color:black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            text-decoration:underline red;
+            font-size: 18px;
+        }
+        .c2 .a4
+        {
+            margin-top: -30px;
+        }
+        .c2 .a4 a
+        {
+            
+            margin-left:640px;
+            padding-top:-70px;
+            color:rgb(180, 180, 43);
+            font-size: 26px;
+            text-decoration: none;
+            font-weight:bold;
+        }
+        .c2 .a5
+        {
+            margin-left: 720px;
+            margin-top:-25px;
+        }
+        .c2 .a5 a
+        {
+            margin-left: 60px;
+            color:black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .active, .nav .n1 :hover
+        {
+             background-color:rgb(183, 183, 183);
+             border-radius:2px;
+        }
+        .nav .n1
+        {
+            margin-top:25px;
+            margin-left:260px;
+        }
+        .nav .n1 a
+        {
+            margin-left:60px;
+            color:black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        .slide{
+                width:1520px;
+                height:400px;
+              
+            }
+            .slide img{
+                width:1520px;
+                height:400px;
+                margin-top:160px;
+
+            }
+            .c5
+            {
+                width:1520px;
+                margin-top: 30px;
+            }
+            .c5 img{
+                width:1520px;
+                margin-top:150px;
+
+                
+            }
+            h1
+            {
+                color:rgb(206, 21, 68);
+                font-size: 350%;
+            }
+           .swiper
+           {
+            width:90%;
+            height:fit-content;
+           }
+           .swiper-slide img
+           {
+            width:100%;
+           }
+           .swiper .swiper-button-prev, .swiper .swiper-button-next
+           {
+            color:white;
+           }
+           .c6 h2
+           {
+            font-size:42px;
+            color:rgb(65, 65, 65);
+            margin-top:50px;
+           }
+           .imagecard
+           {
+
+            width:100%;
+            padding:20px;
+            margin:-20px auto;
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+           }
+           .box {
+            
+            width:250%;
+            height:350px;
+            margin:0 40px;
+            border: 1px solid black;
+            transition:1s;
+           }
+           .box img 
+           {
+            display:block;
+            width:200px;
+            border-radius:5px;
+            
+           }
+           .box :hover
+           {
+            transform: scale(1.3);
+            z-index:3;
+           }
+           .box p
+           {
+            margin-top: -80px;
+            margin-left:20px;
+            font-size:28px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .box h5
+            {
+                margin-top:-25px;
+                color:rgb(98, 97, 97);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size:15px;
+                margin-left: 20px;
+            }
+            .box h4
+            {
+                color:black;
+                margin-left: 20px;
+                margin-top:-20px;
+            }
+            .heading img
+            {
+                width:1000px;
+                height:100px;
+            }
+            .off img
+            {
+                width:1200px;
+                height:100px;
+                margin-left: 150px;
+            }
+           .brands .a1 img
+           {
+            margin-left:80px;
+           }
+           .row
+           {
+            display:flex;
+            flex-wrap: wrap;
+           }
+           .f1 ul
+           {
+            list-style: none;
+           }
+           .footer
+           {
+            background-color: #24262b;
+            height:500px;
+            color:white;
+            margin-top: 30px;
+           }
+           .footer .f1 h4
+           {
+            margin-left:90px;
+            margin-top:50px;
+            margin-bottom: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           }
+           .footer-col ul  li:not(:last-child){
+            margin-bottom: 10px;
+           }
+           .footer-col ul  li
+           {
+            margin-top: 10px;
+            margin-left:50px;
+            text-transform: capitalize;
+            display:block;
+            transition: all 0.3s ease;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           }
+           .footer-col ul li a:hover{
+            padding-left: 1px;
+            color:#ffffff;
+           }
+           .footer .f1 p
+           {
+            color:white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 80px;
+           }
+           .footer .f1 a
+           {
+            color:white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: -290px;
+            margin-top: 40px;
+            font-size: 12px;
+           }
+       </style>
+    </head>
+    <body class=div>
+    <div class="flex-container">
+        <div class="c1">
+            <div class="a1">
+                <a href="@">First Citizen Club</a>
+                <a href="@">All Stores</a>
+                <a href="@">Help & Support</a>
+            </div>
+                <center><p>SHOPPERS STOP</p></center>
+                <input type="text" placeholder="Search Products & Brands"/>
+                 <div class="a2"><img src="search-interface-symbol.png" type="image/png"/></div>
+                <div class="logo">
+                    <img src="heart.png" type="image/png"/>
+                    <img src="shopping-bag.png" type="image/png"/>
+                    <img src="user (5).png" type="image/png"/>
+                </div>
+                <div class="c2">
+                    <div class="a3">
+                        <a href="@">CATEGORIES</a>
+                    </div>
+                    <div class="a4">
+                        <a href="@">LUXE</a>
+                    </div>
+                    <div class="a5">
+                        <a href="@">BARGAINS</a>
+                        <a href="@">STYLE HUB</a>
+                    </div>
+                     <div class="nav">
+                        <div class="n1">
+                           <a href="@" class="active">MEN</a>
+                            <a href="@">WOMEN</a>
+                            <a href="@">BEAUTY</a>
+                            <a href="@">WATCHES</a>
+                            <a href="@">KIDS</a>
+                            <a href="@">HOME STOP</a>
+                            <a href="@">GIFTS</a>
+                            <a href="@">BRANDS</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <script src="script.js">
+        </script>
+            <div class="slide">
+                <img name="slide" alt="no-image">
+            </div>
+            <div class="c5">
+                <img src="https://sslimages.shoppersstop.com/sys-master/root/hb5/h60/27269490540574/web_hp_icon-strips_main_20220322.jpg">
+            </div>
+            <h1><center>Sponsored Brands</center></h1>
+            <div class="container">
+                  <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+        <div class="swiper-slide"><img src="https://sslimages.shoppersstop.com/sys-master/root/ha6/h9d/29626732412958/lakme%20eyeshadow%20web--SP--BRANDS-OFFER-CHANGE-2023-03-16-HP-PAGE.jpg"/></div>
+        <div class="swiper-slide"><img src="https://sslimages.shoppersstop.com/sys-master/root/h0e/h2a/29326739931166/WEB-NEW-FASTRACKERGSP09.png"/></div>
+        <div class="swiper-slide"><img src="https://sslimages.shoppersstop.com/sys-master/root/h83/ha0/29377794474014/Allen-Solly-Web17-2-2023bvmnjkfuiry689ut.jpg"></div>
+        <div class="swiper-slide"><img src="https://sslimages.shoppersstop.com/sys-master/root/ha0/hce/29460259471390/1840x500--2023-02-27-hp-clole-new-add-2sp.JPG"/></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay:3000,
+                disableOnInteraction:false,
+            },
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+    </script>
+    <div class="c6">
+        <h2><center><i>
+            Lakme Best Seller
+            </center></i>
+        </h2>
+    </div>
+    <div class="imagecard">
+        <div class="box">
+            <img src="https://sslimages.shoppersstop.com/sys-master/images/hbb/hfc/27295442403358/S22LAK030867651SS_ALLURING_SILVER.jpg_136Wx204H"/><br>
+            <p>Lakme</p>
+            <h5>Absolute explore My Eye Pencil 1.2gm</h5>
+            <h4>Rs.650</h4>
+        </div>
+        <div class="box">
+            <img src="https://sslimages.shoppersstop.com/sys-master/images/h7e/h3f/14414547353630/206713510_9999.jpg_136Wx204H"/>
+            <p>Lakme</p>
+            <h5>Absolute 3D Lipstick 3D Matte</h5>
+            <h4>Rs.680</h4>
+        </div>
+        <div class="box">
+            <img src="https://sslimages.shoppersstop.com/sys-master/images/h05/hbc/16637867229214/9908025_UNMAPPED.jpg_136Wx204H"/>
+            <p>Lakme</p>
+            <h5>Absolute Glass Artist Eye Liner Black-2.5ml</h5>
+            <h4>Rs.750</h4>
+        </div>
+        <div class="box">
+            <img src="https://sslimages.shoppersstop.com/B8AC9759D45547D9AEF177F0DE13B7C8/img/2DDA104E1A47438F9F4A1171905C8A87/201241693_9999_2DDA104E1A47438F9F4A1171905C8A87.jpg"/>
+            <p>Lakme</p>
+            <h5>Absolute Glass Artist Eye Liner Black-2.5ml</h5>
+            <h4>Rs.995</h4>
+        </div>
+        <div class="box">
+            <img src="https://sslimages.shoppersstop.com/sys-master/images/hd5/h9f/28150798581790/200587667_UNMAPPED.jpg_136Wx204H"/>
+            <p>Lakme</p>
+            <h5>9 to 5 Whiteness Mouse Foundation-Rose-Ivorey-25g</h5>
+            <h4>Rs.520</h4>
+        </div>
+    </div>
+    <div class="heading"><center>
+        <img src="https://sslimages.shoppersstop.com/sys-master/root/h98/hec/28808040939550/Flash-sale-strip-web22323ffgg.gif"/></center>
+    </div>
+        <div class="off">
+          <img src="https://sslimages.shoppersstop.com/sys-master/root/h4b/h03/29368009195550/FCC%20Home%20Page_1840%20x%20180%20px--without-velento2023-02-167.jpg"/>
+        </div>
+        <div class="container">
+            <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+     <div class="swiper-wrapper">
+    <!-- Slides -->
+     <div class="swiper-slide"><img src="https://sslimages.shoppersstop.com/sys-master/root/hc6/h70/29603289071646/homestop-woderchef--static-web20032323--populars.jpg"/></div>
+      
+   </div>
+     <!-- If we need pagination -->
+     <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+     <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <div class="brands">
+    <h1><center>Best of Brands</center></h1>
+    <div class="a1">
+    <img src="https://sslimages.shoppersstop.com/sys-master/root/hba/ha9/29626748338206/Women--4-Widgets-main-Web_hp-page-ethnic-2023-03-1600.jpg">
+    <img src="https://sslimages.shoppersstop.com/sys-master/root/hcb/hac/29626748403742/w--biba--4-Widgets-Web_hp-biba-w-aurelai_2023-03-16---12.jpg"/>
+    <img  src="https://sslimages.shoppersstop.com/sys-master/root/h7a/had/29626748469278/Indya-Global-Desi--4-Widgets-Web__indya-globaldesi_2023-03-16--222.jpg"/>
+    <img src="https://sslimages.shoppersstop.com/sys-master/root/h8a/hb0/29626748534814/Alaya-by-Stage-3%2C-Haute-Curry--4-Widgets-Web_alaya-haute-curry-2023-03-16-444.jpg"><br>
+     <img src="https://sslimages.shoppersstop.com/sys-master/root/hb6/hc7/29623019110430/Women-western--4-Widgets-main-Web--2023-03-15-newf.jpg">
+    <img  src="https://sslimages.shoppersstop.com/sys-master/root/h64/hc8/29623019175966/Forever-New%2C-Zink-London---4-Widgets-Web-----main-Web--2023-03-15-newf.jpg">
+    <img src="https://sslimages.shoppersstop.com/sys-master/root/h75/hcb/29623019241502/And%2C-Vero-Moda--4-Widgets-Web%3D%3D%3D-main-Web--2023-03-15-newf.jpg">
+    <img src="https://sslimages.shoppersstop.com/sys-master/root/hfc/h32/29626726219806/kraus-levis--4-Widgets-Web_--90--without--logo--87-mkl.jpg"><br>
+    <img  src="https://sslimages.shoppersstop.com/sys-master/root/h29/h76/29623018848286/watches-4-widget-main-Web---add-logo-2023-03-15-ngh.jpg">
+    <img src="https://sslimages.shoppersstop.com/sys-master/root/h3a/h79/29623018913822/Titan%2C-Casio--4-Widgets-Web---cool-alogo-add-new-2023-03-15.jpg">
+    <img  src="https://sslimages.shoppersstop.com/sys-master/root/he8/h79/29623018979358/fossil--tommy--4-Widgets-Webcool-alogo-add-new-2023-03-15.jpg">
+    <img  src="https://sslimages.shoppersstop.com/sys-master/root/ha5/hc4/29623019044894/ax--michael-kors--4-Widgets-Web---cool-alogo-add-new-2023-03-15.jpg"><br>
+    <img  src="https://sslimages.shoppersstop.com/sys-master/root/hc2/hdc/29623019765790/menswear_4-Widgets-main-Web---coold-full-2023--03-155.jpg">
+    <img src="https://sslimages.shoppersstop.com/sys-master/root/h51/ha8/29626740211742/jack-%26-jones--rare-rabbit_4-Widgets-Web_85765849049hhghbnbbsbwjw.jpg">
+    <img src="https://sslimages.shoppersstop.com/sys-master/root/h81/he0/29623019896862/Allen-Solly%2C-Van-Heusen_4-Widgets-Web-coold-full-2023--03-155d.jpg">
+    <img  src="https://sslimages.shoppersstop.com/sys-master/root/hbd/h33/29626726285342/levis--pepe-jeans_4-Widgets-Webwithou-log0-sd233.jpg">
+    </div>
+   </div>
+    <footer class="footer">
+        <div class="f1">
+            <div class="row">
+                <div class="footer-col">
+                    <h4><u>WOMEN</u></h4>
+                    <ul>
+                        <li>Indian Wear</li>
+                        <li>Western Wear</li>
+                        <li>Lingeric & Night Wear</li>
+                        <li>Footwear</li>
+                        <li>watches</li>
+                        <li>Fragrances</li>
+                        <li>Bags & wallets</li>
+                        <li>Sunglasses & Frames</li>
+                        <li>Jewllery</li>
+                        <li>Travel</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4><u>MEN</u></h4>
+                    <ul>
+                        <li>Clothing</li>
+                        <li>Footwear</li>
+                        <li>watches</li>
+                        <li>Fragrances</li>
+                        <li>Grooming For Men</li>
+                        <li>Sunglasses & Frames</li>
+                        <li>Jewllery</li>
+                        <li>Accesssories</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4><u>Kids</u></h4>
+                    <ul>
+                        <li>Boys</li>
+                        <li>girls</li>
+                        <li>watches</li>
+                        <li>Infants</li>
+                        <li>Toys</li>
+                        <li>School Essential</li>
+                        <li>Footware</li>
+                        <li>Accesssories</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4><u>BEAUTY</u></h4>
+                    <ul>
+                        <li>Make Up</li>
+                        <li>Skincare</li>
+                        <li>Bath & body</li>
+                        <li>Nails</li>
+                        <li>Haircare</li>
+                        <li>Men's Fragrance</li>
+                        <li>Women's Fragrance</li>
+                        <li>Grooming For Men</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4><u>HOMESTOP</u></h4>
+                    <ul>
+                        <li>Kitchen& Dinning</li>
+                        <li>Decor</li>
+                        <li>Home Furnishing</li>
+                        <li>Storage & Organization</li>
+                        <li>Smart Home And Appliances</li>
+                        <li>Bath</li>
+                        <li>Bedding</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4><u>WATCHES</u></h4>
+                    <ul>
+                        <li>Men's Watches</li>
+                        <li>Women's Watches</li>
+                        <li>Kids Watches</li>
+                    </ul>
+                </div>
+                <p>2022 Shoppers stop Lts.All rigts reserved<br></p>
+                <a>Terms of use | Coolie & Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+        
+    </div>
+    
+    </body>
+</html>
